@@ -48,6 +48,8 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { ZComponentComponent } from './components/z-component/z-component.component';
 import { ZDirectiveDirective } from './directives/z-directive.directive';
 
+import { ImageCropperModule } from 'ngx-image-cropper';
+
 @NgModule({
   declarations: [AppComponent, ZComponentComponent, ZDirectiveDirective],
   imports: [
@@ -91,6 +93,7 @@ import { ZDirectiveDirective } from './directives/z-directive.directive';
     MatStepperModule,
     MatPaginatorModule,
     MatFormFieldModule,
+    ImageCropperModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
